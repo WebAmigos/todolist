@@ -18,3 +18,5 @@ export const ListItem = memo(({ id, task, done, onChange }: Props) => {
     </li>
   );
 });
+
+ListItem.displayName = "memo (ListItem)";
